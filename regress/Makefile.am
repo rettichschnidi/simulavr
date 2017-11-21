@@ -10,7 +10,7 @@ SUBDIRS              = modules test_opcodes
 
 if USE_AVR_CROSS
 
-SUBDIRS += avrtest gtest
+SUBDIRS += avrtest
 
 if PYTHON_USE
 SUBDIRS += timertest extinttest modtest
